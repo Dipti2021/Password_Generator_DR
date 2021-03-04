@@ -2,21 +2,19 @@
 I was required to modify the starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected.
 ## Table of Contents
 * [Introduction](#introduction)
-* [Screenshot of the Application(#webpage)
+* [Screenshot of the Application](#webpage)
 * [Working of the application](#web)
 * [Installations](#installations)
 * [Assignment details](#details)
 * [Credits](#credits)
 
  ## Introduction 
-The random password generated has been created keepingf in mind various factors. Depending on them, it will feature updated HTML and CSS powered by JavaScript code that as been written. It has a clean and polished, responsive user interface that adapts to multiple screen sizes.
+The random password generated has been created keeping in mind various factors. Depending on them, it will present the output for you that has been created by using updated HTML and CSS which are powered by JavaScript code It has a clean and polished, responsive user interface that adapts to multiple screen sizes.
  
  
- ## Password Page Screenshot
+ ## Screenshot of the Application
  The screenshots here may not be accurate, but the site looks almost similar to the ones as shown here.
- 
- 
- __FOR LAPTOP DISPLAY__
+
  
  ![Image1](assets/screenshot_laptop_view.png)
  
