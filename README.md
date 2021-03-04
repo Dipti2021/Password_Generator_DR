@@ -34,7 +34,7 @@ The random password generated has been created keeping in mind various factors. 
    * [The URL of the deployed application](https://dipti2021.github.io/Password_Generator_DR/)
  
  ## Assignment Details
-  The random password generator has been created using HTML, CSS and Javascript to code.Ihas been createdkeeping in mind the following conditions:
+  The random password generator has been created using HTML, CSS and Javascript to code.The aaplication has been created keeping in mind the following conditions:
    * This application can be used to generate a random password between 8 and 128 characters.
    * It is upto the discretion of the user to choose how they want to construct their password. 
    * The password can be created using uppercase letters, lowercase letters, numeric characters, and special characters.
