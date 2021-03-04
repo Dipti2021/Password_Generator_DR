@@ -51,7 +51,7 @@ function generatePassword() {
 
 //combinations for generating the password using all the characters 
   if (!lower && !upper && !num && !sym) {
-    pwd = alert("See you soon again");
+    pwd = alert("See you soon again 👍");
   }
   else if (lower && upper && num && sym) {
     pwd = lower_alphabets.concat(upper_alphabets, numbers, symbols);
