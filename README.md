@@ -2,33 +2,17 @@
 I was required to modify the starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected.
 ## Table of Contents
 * [Introduction](#introduction)
-* [Password Page Screenshot](#webpage)
-* [How the password will be generated](#web)
+* [Screenshot of the Application(#webpage)
+* [Working of the application](#web)
 * [Installations](#installations)
 * [Assignment details](#details)
 * [Credits](#credits)
 
  ## Introduction 
-The random password generated has been created keepingf in mind various factors. Depending on them, it will feature updated HTML and CSS powered by JavaScript code that as been written. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
-
-The user will be prompted to choose from the following password criteria:
-
-Length (must be between 8 and 128 characters)
-
-Character type:
-
-Special characters (see examples)
-
-Numeric characters
-
-Lowercase characters
-
-Uppercase characters
-
-The application should validate user input and ensure that at least one character type is selected.
+The random password generated has been created keepingf in mind various factors. Depending on them, it will feature updated HTML and CSS powered by JavaScript code that as been written. It has a clean and polished, responsive user interface that adapts to multiple screen sizes.
  
  
- ## password Page Screenshot
+ ## Password Page Screenshot
  The screenshots here may not be accurate, but the site looks almost similar to the ones as shown here.
  
  
