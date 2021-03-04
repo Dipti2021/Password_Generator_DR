@@ -41,8 +41,7 @@ The random password generated has been created keeping in mind various factors. 
    * If the number entered by the user does not fall in the given range, then no password will be generated.
    * Depending upon the prompts chosen by the user, the password will be generated accordingly.
 
-  *Keeping all these conditions in mind, I have created the Javascript code using the if, else if and else conditions to generate the required password.
-  *On generating a random string of characters, they were joined and presented as a password using functions like  .concat(), math.floor() and math.random() 
+  *Keeping all these conditions in mind, I have created the Javascript code using the if, else if and else conditions to generate the required password.On generating a random string of characters, they were joined and presented as a password using functions like*  `.concat()`, `math.floor()` and `math.random()`
     
  
  ## Credits
