@@ -18,6 +18,14 @@ The random password generated has been created keeping in mind various factors. 
  
  ![Image](assets/Password_screenshot.png)
  
+ ## Working of the application
+ The below shows video shows how the code will respond to __three__ different situations.
+ 1.__First__ being the onein which we enter the password length with is not between 8 and 128.
+ 2.  __Second__ shows the generations of the password when all the conditions are termed OK
+ 3.  In the __third__ situation, a password is generated depending upon the conditions which have been accepted by the user.
+ 
+  ![video](assets/password.mp4)
+ 
  ## Installations
    * [The URL of the Github repo](https://github.com/Dipti2021/Portfolio_DR)
    * [The URL of the deployed application](https://dipti2021.github.io/Portfolio_DR/)
