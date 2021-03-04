@@ -34,30 +34,17 @@ The random password generated has been created keeping in mind various factors. 
    * [The URL of the deployed application](https://dipti2021.github.io/Password_Generator_DR/)
  
  ## Assignment Details
- The following codes have been created  by me for the __HTML and the CSS files__ that were require for the portfolio:
- * __The .html file:__ 
-    * Created the html file, which is related to the threesections that my website has, namely __About Me, My Portfolio and Contact Me__.
-    *  Created a descriptive title that is well suited to the code.
-    *  Added the header and a footer element.
-    *  Divided the code into various sections,divisions and classes in order to make the code more accessible
-    * In the main code of all the HTML files, added alt,href et al attributes as and when required.
+  The random password generator has been created using HTML, CSS and Javascript to code.Ihas been createdkeeping in mind the following conditions:
+   * This application can be used to generate a random password between 8 and 128 characters.
+   * It is upto the discretion of the user to choose how they want to construct their password. 
+   * The password can be created using uppercase letters, lowercase letters, numeric characters, and special characters.
+   * If the number entered by the user does not fall in the given range, then no password will be generated.
+   * Depending upon the prompts chosen by the user, the password will be generated accordingly.
+
+  *Keeping all these conditions in mind, I have created the Javascript code using the if, else if and else conditions to generate the required password.
+  *On generating a random string of characters, they were joined and presented as a password using functions like  .concat(), math.floor() and math.random() 
     
-  * __The .css file:__
-    * Created two CSS files, namely __style and reset__
-    * Used CSS variables to maintain clean and reusable values for a color scheme.
-    * Used flexbox and media queries to create a responsive grid layout
-    * Styled the portfolio pages with all the required skills.
-    * The layout of the page changes as per the device.
-
- ## What to expect when visiting my Portfolio?
- 1. WHEN you will load my portfolio,THEN you will be presented with my name, a recent photo, and links to sections about me, my work, and how to contact me.
-2. WHEN you click one of the links in the navigation, THEN the UI scrolls to the corresponding section.
-3. WHEN you click on the link to the section about my work, THEN the UI scrolls to a section with titled images of my applications.
-4. WHEN you are presented with my first application, THEN that application's image is larger in size than the others.
-5. WHEN you click on the images of the applications, THEN you am taken to that deployed application.
-6. WHEN you resize the page or view the site on various screens and devices, THEN you are presented with a responsive layout that adapts to my viewport.
-
-   
+ 
  ## Credits
     The homework has been assigned to me by the Carleton University Coding Bootcamp, our instructor and the TA's
    
