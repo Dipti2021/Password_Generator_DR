@@ -20,9 +20,9 @@ The random password generated has been created keeping in mind various factors. 
  
  ## Working of the Application
  The below shows video shows how the code will respond to __three__ different situations.
- 1.__First__ being the onein which we enter the password length with is not between 8 and 128.
- 2.  __Second__ shows the generations of the password when all the conditions are termed OK
- 3.  In the __third__ situation, a password is generated depending upon the conditions which have been accepted by the user.
+  1.__First__ being the onein which we enter the password length with is not between 8 and 128.
+  2.  __Second__ shows the generations of the password when all the conditions are termed OK
+  3.  In the __third__ situation, a password is generated depending upon the conditions which have been accepted by the user.
  
 
 ![password](https://user-images.githubusercontent.com/77368913/110028466-47531a80-7d01-11eb-82c0-976ffdb104a2.gif)
