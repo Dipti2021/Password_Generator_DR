@@ -3,7 +3,7 @@ I was required to modify the starter code to create an application that enables 
 ## Table of Contents
 * [Introduction](#introduction)
 * [Screenshot of the Application](#webpage)
-* [Working of the application](#web)
+* [Working of the Application](#web)
 * [Installations](#installations)
 * [Assignment details](#details)
 * [Credits](#credits)
@@ -18,7 +18,7 @@ The random password generated has been created keeping in mind various factors. 
  
  ![Image](assets/Password_screenshot.png)
  
- ## Working of the application
+ ## Working of the Application
  The below shows video shows how the code will respond to __three__ different situations.
  1.__First__ being the onein which we enter the password length with is not between 8 and 128.
  2.  __Second__ shows the generations of the password when all the conditions are termed OK
@@ -30,8 +30,8 @@ The random password generated has been created keeping in mind various factors. 
 
  
  ## Installations
-   * [The URL of the Github repo](https://github.com/Dipti2021/Portfolio_DR)
-   * [The URL of the deployed application](https://dipti2021.github.io/Portfolio_DR/)
+   * [The URL of the Github repo](https://github.com/Dipti2021/Password_Generator_DR)
+   * [The URL of the deployed application](https://dipti2021.github.io/Password_Generator_DR/)
  
  ## Assignment Details
  The following codes have been created  by me for the __HTML and the CSS files__ that were require for the portfolio:
