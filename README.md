@@ -24,7 +24,10 @@ The random password generated has been created keeping in mind various factors. 
  2.  __Second__ shows the generations of the password when all the conditions are termed OK
  3.  In the __third__ situation, a password is generated depending upon the conditions which have been accepted by the user.
  
-  ![video](assets/password.mp4)
+ 
+https://user-images.githubusercontent.com/77368913/110027645-3ce45100-7d00-11eb-87cb-e788c773f24e.mp4
+
+
  
  ## Installations
    * [The URL of the Github repo](https://github.com/Dipti2021/Portfolio_DR)
