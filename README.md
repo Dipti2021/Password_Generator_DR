@@ -13,21 +13,11 @@ The random password generated has been created keeping in mind various factors. 
  
  
  ## Screenshot of the Application
- The screenshots here may not be accurate, but the site looks almost similar to the ones as shown here.
+ The screenshot of the application looks almost similar to the one as shown here.
 
  
- ![Image1](assets/screenshot_laptop_view.png)
+ ![Image1](Password_screenshot.png)
  
- 
-  __FOR IPAD DISPLAY__
-  
- ![Image2](assets/display_812.png)
- 
- 
- __FOR SMALLER DISPLAYS__
- 
- ![Image3](assets/small_display.png)
-  
  ## Installations
    * [The URL of the Github repo](https://github.com/Dipti2021/Portfolio_DR)
    * [The URL of the deployed application](https://dipti2021.github.io/Portfolio_DR/)
