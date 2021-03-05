@@ -33,83 +33,75 @@ function generatePassword() {
   pwd_length = prompt("Choose a number between 8 and 128 to determine the length of your password");
   //Different conditions for the length of the password
  if( pwd_length < 8 || pwd_length> 128 ||!pwd_length) {
-  alert("Password length must be between 8-128 characters.Please try again 🥺");
-  
-  
+   alert("Password length must be between 8-128 characters.Please try again ☹️ ");
   } else {
    lower= confirm("Will your password contain lower case alphabets?");
    upper= confirm("Will your password contain upper case alphabets?");
    num = confirm("Will your password contain numbers?");
    sym = confirm("Will your passwords contain special characters?");
-
-   alert(`You will have ${pwd_length} characters in your password 🔑`);
        
   };
 
-  
-  
-
 //combinations for generating the password using all the characters 
   // if none of the condition is true then the process will stop 
-  if (!lower && !upper && !num && !sym) {
-     pwd=alert("See you soon next time 👍");
+ if (!lower && !upper && !num && !sym) {
+    pwd = alert("Choose atleast one of the four characters in order to generate a password 👍");
   }
-  else if (lower && upper && num && sym) {// if all the four conditions are true, then a password will be generated which will have all the four special  characters
+  else if (lower && upper && num && sym) {
     pwd = lower_alphabets.concat(upper_alphabets, numbers, symbols);
     
     
-  } else if (lower && upper && num) {// if lower, upper and num conditions are true, then a password will be generated which will have these three special characters only
+  } else if (lower && upper && num) {
     pwd  = lower_alphabets.concat(upper_alphabets, numbers);
     
-  } else if (lower && upper && sym) {// if lower, upper and sym conditions are true, then a password will be generated which will have these three special characters only
+  } else if (lower && upper && sym) {
     pwd  = lower_alphabets.concat(upper_alphabets, symbols);
     
-  } else if (lower && num && sym) {// if lower, sym and num conditions are true, then a password will be generated which will have these three special characters only
+  } else if (lower && num && sym) {
     pwd  = lower_alphabets.concat(numbers, symbols);
     
-  } else if (upper && num && sym) {// if upper and num and sym conditions are true, then a password will be generated which will have these three special characters only
+  } else if (upper && num && sym) {
     pwd  = upper_alphabets.concat(numbers, symbols);
    
-  } else if (lower && upper) {// if lower and upper conditions are true, then a password will be generated which will have these two special characters only
+  } else if (lower && upper) {
     pwd  = lower_alphabets.concat(upper_alphabets);
     
-  } else if (lower && num) {// if lower and num conditions are true, then a password will be generated which will have these two special characters only
+  } else if (lower && num) {
     pwd  = lower_alphabets.concat(numbers);
     
-  } else if (lower && sym) { // if lower and sym conditions are true, then a password will be generated which will have these two special characters only
+  } else if (lower && sym) {
     pwd  = lower_alphabets.concat(symbols);
    
-  } else if (upper && num) { // if upper and num conditions are true, then a password will be generated which will have these two special characters only
+  } else if (upper && num) {
     pwd  = upper_alphabets.concat(numbers);
     
-  } else if (upper && sym) {// if upper and sym conditions are true, then a password will be generated which will have these two special characters only
+  } else if (upper && sym) {
     pwd  = upper_alphabets.concat(symbols);
    
-  } else if (num && sym) {// if num and num conditions are true, then a password will be generated which will have these two special characters only
+  } else if (num && sym) {
    pwd  = numbers.concat(symbols);
    
-  } else if (lower) {// if lower condition is true, then a password will be generated which will have only this special character
+  } else if (lower) {
     pwd  = lower_alphabets;
    
-  } else if (upper) {// if upper condition is true, then a password will be generated which will have only this special character
+  } else if (upper) {
     pwd  = upper_alphabets;
     
-  } else if (num) {// if num condition is true, then a password will be generated which will have only this special character
+  } else if (num) {
     pwd  = numbers;
     
-  } else if (sym) {// if sym condition is true, then a password will be generated which will have only this special character
+  } else if (sym) {
     pwd  = symbols;
     
   }
   else{
-    alert("Let's proceed with creating your password 😊 ");
+    alert("Let's proceed with creating your password ");
   };
   
 
   //combining and genereating a random password which will be stored and returned as a new variable
-  //for loop will give us a value for the password length
   for (var i = 0; i < pwd_length; i++) {
-    empty_pwd += pwd[Math.floor(Math.random() * pwd.length)];//math.random() function will generate a random float number which when multiplied with the password length will generate a new random length and math.floor() function will change that float number to its closest and greatest number variant.and a random password of that new enth will be generated.
+    empty_pwd += pwd[Math.floor(Math.random() * pwd.length)];
     console.log(empty_pwd);
   }
   return empty_pwd;
