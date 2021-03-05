@@ -33,7 +33,7 @@ function generatePassword() {
   pwd_length = prompt("Choose a number between 8 and 128 to determine the length of your password");
   //Different conditions for the length of the password
  if( pwd_length < 8 || pwd_length> 128 ||!pwd_length) {
-  pwd= alert("Password length must be between 8-128 characters.Please try again 🥺");
+  alert("Password length must be between 8-128 characters.Please try again 🥺");
   
   
   } else {
