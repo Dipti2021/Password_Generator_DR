@@ -33,16 +33,20 @@ function generatePassword() {
   pwd_length = prompt("Choose a number between 8 and 128 to determine the length of your password");
   //Different conditions for the length of the password
  if( pwd_length < 8 || pwd_length> 128 ||!pwd_length) {
-   alert("Password length must be between 8-128 characters.Please try again 🥺");
+  pwd= alert("Password length must be between 8-128 characters.Please try again 🥺");
   
   
-  } else {
+  } else if {
    lower= confirm("Will your password contain lower case alphabets?");
    upper= confirm("Will your password contain upper case alphabets?");
    num = confirm("Will your password contain numbers?");
    sym = confirm("Will your passwords contain special characters?");
 
    alert(`You will have ${pwd_length} characters in your password 🔑`);
+    
+  } else {
+    alert("You must enter atleast one of the four alloted characters");
+  
        
   };
 
@@ -52,7 +56,7 @@ function generatePassword() {
 //combinations for generating the password using all the characters 
   // if none of the condition is true then the process will stop 
   if (!lower && !upper && !num && !sym) {
-     alert("Enter at least one special character in order to generate a password 👍");
+     alert("See you soon next time 👍");
   }
   else if (lower && upper && num && sym) {// if all the four conditions are true, then a password will be generated which will have all the four special  characters
     pwd = lower_alphabets.concat(upper_alphabets, numbers, symbols);
