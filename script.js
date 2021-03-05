@@ -52,7 +52,7 @@ function generatePassword() {
 //combinations for generating the password using all the characters 
   // if none of the condition is true then the process will stop 
   if (!lower && !upper && !num && !sym) {
-    pwd = alert("Enter at least one character 👍");
+    pwd = alert("Enter at least one special character in order to generate a password 👍");
   }
   else if (lower && upper && num && sym) {// if all the four conditions are true, then a password will be generated which will have all the four special  characters
     pwd = lower_alphabets.concat(upper_alphabets, numbers, symbols);
